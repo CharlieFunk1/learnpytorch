@@ -22,6 +22,7 @@ class Model(nn.Module):
 iris_x_data = np.loadtxt("irisx.txt", dtype=float, delimiter=",")
 iris_y_data = np.loadtxt("irisy.txt", dtype=float, delimiter=",")
 
+print(iris_x_data.shape[1])
 #print(iris_x_data)
 #print(iris_y_data)
 
